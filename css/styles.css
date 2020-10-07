@@ -19,8 +19,13 @@
 .jumbotron {
     padding:70px 30px 70px 30px;
     margin:0px auto;
-    background: #9575CD ;
-    color:floralwhite;
+
+.pic{
+	background-size: cover;
+  background-repeat: no-repeat;
+   background-position:center; 
+   height: 150%;
+   width: 100%;
 }
 
 .address{
@@ -35,11 +40,7 @@
     z-index:0;
 }
 
-.btnn
-{
-	 width:110%;
-    padding:5px;
-}
+
 .tab-content {
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
@@ -70,3 +71,24 @@
 {
 	margin-left:10px;
 }
+
+.btn
+{
+ width:100%;
+ cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
