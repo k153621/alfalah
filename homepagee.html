@@ -7,8 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link rel="stylesheet"  href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
     <link rel="stylesheet" href="css/styles.css">
     <title>slider page</title>
 
@@ -26,23 +24,14 @@
 
 <body>
  
-    <nav class="navbar navbar-dark navbar-expand-sm bg fixed-top">
-        <div class="container">
-             <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-       </button>
-           <a class="navbar-brand" href="#"><img src="img/bgg.png" height="50" width="41"></a>
-       <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav ">
-      <li class="nav-item"><a class="nav-link text-dark" href="#"><span class="fa fa-home fa-lg text-dark"></span> Home</a></li> 
-      <li class="nav-item"><a class="nav-link text-dark" href="#"><span class="fa fa-th-list text-dark"></span> Menu</a></li>
-      <li class="nav-item"><a class="nav-link text-dark" href="#"><span class="fa fa-info fa-lg text-dark"> About Us</a></li>
-      <li class="nav-item"><a class="nav-link text-dark" href="#"><span class="fa fa-address-card fa-lg text-dark"></span> Contact Us</a></li>      
-    </ul>
-  </div>    
-
-    </nav>
-
+   <Navbar class="navbar navbar-dark navbar-expand-sm bg fixed-top">
+                    <div className="container">
+                        <NavbarToggler onClick={this.toggleNav} />
+                        <NavbarBrand className="mr-auto" href='/' >
+                        <img src='/img/bgg.png' height="80" width=80" alt='no image' />
+                        </NavbarBrand>
+               </div>
+                </Navbar>
 
     <header class="jumbotron">
         <div class="container" >
